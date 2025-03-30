@@ -1,0 +1,79 @@
+/* Full-page layout */
+.smartfarm-admin-container {
+    min-height: 100vh;
+    display: flex;
+    max-width: 100% !important;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f9; /* Light background */
+    padding: 20px;
+    
+    /* Background image settings */
+    background-image: url("../../assets/admin.jpg"); /* Replace with your actual image path */
+    background-size: cover; /* Ensures image covers the full page */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents image repetition */
+}
+
+/* Login card */
+.smartfarm-admin-card {
+    background: rgb(129, 162, 168)  !important;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(9, 60, 142, 0.591);
+    width: 400px;
+    text-align: center;
+}
+
+/* Heading */
+.smartfarm-admin-card h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0f497e;
+    margin-bottom: 20px;
+}
+
+/* Form inputs */
+.smartfarm-admin-card .form-control {
+    border-radius: 6px;
+    border: 1px solid #dce2e8;
+    padding: 10px;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+.smartfarm-admin-card .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0px 0px 6px rgba(0, 123, 255, 0.5);
+}
+
+/* Login Button */
+.smartfarm-admin-card .btn-login {
+    background: #007bff;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    border-radius: 6px;
+    color: rgb(15, 76, 161);
+}
+
+.smartfarm-admin-card .btn-login:hover {
+    background: #0056b3;
+}
+
+/* Error message */
+.smartfarm-admin-card .alert {
+    font-size: 14px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    .smartfarm-admin-card {
+        width: 90%;
+        padding: 20px;
+    }
+}

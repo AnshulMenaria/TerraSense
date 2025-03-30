@@ -1,0 +1,73 @@
+/* Full Background Image for the Container */
+.total-users-container {
+    background: url("../../assets/bg1.jpg") no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    max-width: 100% !important;
+    min-height: 100vh;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Search Bar Row */
+.total-users-search-row {
+    margin-bottom: 20px;
+}
+
+/* Search Input */
+.total-users-search-input {
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    padding: 8px;
+    width: 100%;
+}
+
+/* Add Farmer Button */
+.total-users-add-button {
+    width: 100%;
+    font-weight: bold;
+}
+
+/* Card */
+.total-users-table-card {
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+}
+
+/* Table */
+.total-users-table {
+    font-size: 16px;
+    text-align: center;
+    background: white;
+}
+
+/* Table Row */
+.total-users-table-row:hover {
+    background-color: #f1f1f1;
+    transition: 0.3s;
+}
+
+/* Modal */
+.total-users-modal {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* Form Group */
+.total-users-form-group {
+    margin-bottom: 10px;
+}
+
+/* Input Fields */
+.total-users-input {
+    border-radius: 5px;
+    padding: 8px;
+    width: 100%;
+}
+
+/* Modal Buttons */
+.total-users-modal-button {
+    font-weight: bold;
+}

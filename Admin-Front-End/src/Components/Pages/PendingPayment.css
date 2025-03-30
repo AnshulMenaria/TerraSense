@@ -1,0 +1,72 @@
+/* Full-page background */
+.pending-payments-page {
+    background: url("../../assets/bg1.jpg") no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Container */
+.pending-payments-container {
+    width: 90%;
+    max-width: 1200px;
+    background: rgba(255, 255, 255, 0.9); /* Slight transparency for readability */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.pending-payments-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Card */
+.pending-payments-card {
+    border: none;
+    border-radius: 8px;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+}
+
+/* Table */
+.pending-payments-table {
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Table Row */
+.pending-payments-row:hover {
+    background-color: #f1f1f1;
+    transition: 0.3s;
+}
+
+/* Button */
+.pending-payments-button {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.pending-payments-button:hover {
+    background-color: #28a745;
+    color: white;
+}
+
+/* No pending payments message */
+.pending-payments-empty {
+    text-align: center;
+    font-size: 18px;
+    color: #6c757d;
+    font-weight: bold;
+}
