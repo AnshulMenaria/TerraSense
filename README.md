@@ -34,3 +34,9 @@ Use `docker-compose.yml` to bring up both services:
 
 ```bash
 docker-compose up -d
+
+
+##Authorization
+
+Username: Admin
+Password: Admin123
